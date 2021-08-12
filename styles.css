@@ -119,22 +119,14 @@ section #partners .partner img {
     width: 1200px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 50px;
-}
-
-#cliffs h2{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 50px;
+    text-align: center;
 }
 
 #cliffs p{
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
-    padding: 2% 5% 1% 5%;
-    margin-left: 50px;
+    padding: 2% 0% 1% 0%;
+    margin: 0 30px;
 }
 
 .cliffcliffs {
@@ -175,7 +167,8 @@ table{
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 70px;
+    text-align: center;
 }
 
 #activities p{
@@ -266,16 +259,16 @@ td:first-child{
     font-family: Arial, Helvetica, sans-serif;
     color: #9ed034;
     width: 1200px;
-    padding-left: 5%;
+    padding-left: 1%;
     padding-right: 5%;
-    margin-left: 50px;
+   text-align: center;
 }
 
 #contact p{
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
-    padding: 2% 5% 1% 5%;
-    margin-left: 50px;
+    padding: 2% 1% 1% 1%;
+    
 }
 
 .contactinfo {
