@@ -76,7 +76,53 @@
       </div>
 
 
-      <form action="/contact" method="post">  
+    <form action="/contact" method="POST">
+      <fieldset>
+        <legend>Contact Form</legend>
+        <div class="form-group textbox">
+          <label>Name:</label>
+          <input type="text" class="form-contorl" name="name" placeholder="John Doe">
+          <label>Email:</label>
+          <input type="email" class="form-contorl" name="email" placeholder="johndoe@gmail.com">
+          <label>Phone:</label>
+          <input type="tel" class="form-contorl" name="phone" placeholder="xxx-xxx-xxxx">
+        </div>
+        <div class="form-group radios">
+          <label>How should we contact you?</label> 
+          <div class="form-check"> 
+          <input class="form-check-input" type="radio" name="contact" value="email">
+          <label class="form-check-label mr-5">Email</label>
+          <input class="form-check-input" type="radio" name="contact" value="phone">
+          <label class="form-check-label mr-5">Phone</label>
+          </div>
+        </div>
+        <div class="form-group selectmenu">
+          <label>Which Cliff are you inquiring?</label>  
+          <select class="form-control">
+              <option>West Cliff</option>
+              <option>North Cliff</option>
+              <option>East Cliff</option>
+              <option>South Cliff</option>
+          </select>
+        </div>
+        <div class="form-group commentbox">
+          <label>How did you hear about us:</label>  
+          <textarea class="form-control"></textarea>
+        </div>
+        <!-- Random Codes -->
+          <div class="randomcode">
+            <input id="codeentered" type="text" name="randomcode" placeholder="Enter characters">
+            <p id="codes"></p>
+          </div> 
+        <div class="button">
+        <button type="submit" id="submit">
+          <i class="fa fa-paper-plane"></i>Send
+        </button>
+        </div>
+      </fieldset>
+    </form>
+<!-- 
+    <form action="/contact" method="post">  
       <fieldset>  
         <legend>Contact Form</legend>
         <div class="textbox">
@@ -109,24 +155,24 @@
             <textarea></textarea>
         </div>
 
-        <!--Random Codes-->
+        Random Codes
         <div class="randomcode">
             <input id="codeentered" type="text" name="randomcode" placeholder="Enter characters">
             <p id="codes"></p>
         </div>
 
-        <!-- <div class="button">
+        <div class="button">
             <input type="submit" id="submit" value="Send">
-        </div>  -->
+        </div> 
         <div class="button">
         <button type="submit" id="submit">
           <i class="fa fa-paper-plane"></i>Send
         </button>
-      </div>
+        </div>
 
       </fieldset>  
-      </form>
-        </main>
+    </form>  -->
+        </main> 
                 <br>
     
     <section>

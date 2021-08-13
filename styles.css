@@ -156,10 +156,11 @@ section #partners .partner img {
 }
 
 /*Page 2 Styling*/
-table{
+.table{
     width: 1000px;
-    margin: 5% 0 5% 10%;
+    margin: 5% 0 5% 8%;
 }
+
 #activities h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #9ed034;
@@ -217,7 +218,7 @@ td:first-child{
 }
 
 .tdclick{
-    background: #04af46;
+    background: #9ed034;
     color: #fff;
 }
 
@@ -267,15 +268,17 @@ td:first-child{
 #contact p{
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
-    padding: 2% 1% 1% 1%;
+    margin: 0 2%;
     
 }
 
 .contactinfo {
-    margin: 2em 0 1em 0;
+    margin: 2em 2% 1em 0;
 }
-
 .contactinfo .phone {
+    margin: 0 0 0.75em 0;
+}
+.contactinfo .email {
     margin: 0 0 0.75em 0;
 }
 
@@ -322,13 +325,13 @@ form .commentbox textarea {
 }
 
 form .randomcode {
-    width: 51.5%;
+    width: 52%;
     text-align: right;
 }
 
 form .randomcode input {
-    margin-right: 1em;
-    height: 2em;
+    width: 30%;
+    height: 3em;
 }
 
 form .randomcode #codes {
@@ -338,7 +341,7 @@ form .randomcode #codes {
 }
 
 form .button {
-    width: 49%;
+    width: 48%;
     text-align: right;
 }
 

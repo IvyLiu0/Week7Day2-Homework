@@ -2,6 +2,7 @@
 $(document).ready(function(){
     $("#tbody").bind("click",function(e){
         $(e.target).closest(".tdbox").toggleClass("tdclick");
+        $('#myModal').modal('show');
     });
 
     $("td").click(function(){
@@ -12,15 +13,15 @@ $(document).ready(function(){
             $(this).toggleClass("tdhighlight");
 
             if ($(this).hasClass("tdhighlight")){
-                $('#displaySelected').css("visibility","visible");
-                $('#displaySelected').css("margin-top","2em");
-                $('#result').append("<p>" + content + " at " + cliffName +"</p>");
+                $('#myModal').css("visibility","visible");
+                $('#myModal').css("margin-top","2em");
+                $('.modal-body').append("<p>" + content + " at " + cliffName +"</p>");
             } else {
-                $('#result p:contains('+content+')').remove();
+                $('.modal-body p:contains('+content+')').remove();
 
-                if ($('#result').has('p').length == false){
-                    $('#displaySelected').css("visibility","hidden");
-                    $('#displaySelected').css("margin-top",'0')
+                if ($('.modal-body').has('p').length == false){
+                    $('#myModal').css("visibility","hidden");
+                    $('#myModal').css("margin-top",'0')
                 }
             }
         }
