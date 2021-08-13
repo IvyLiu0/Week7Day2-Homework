@@ -186,7 +186,11 @@ caption{
     font-size: 1,3em;
     font-weight: bold;
     padding-top: 1em;
+    padding-bottom: 2.5em;
+    caption-side: top;
+    text-align: center;
 }
+
 
 thead{
     background: #bde1ff;
@@ -203,6 +207,7 @@ td,th{
     height: 75px;
     vertical-align: middle;
     border: solid 1px #852b1b;
+    text-align: center;
 }
 
 th:first-child{
@@ -226,7 +231,17 @@ td:first-child{
     cursor: pointer;
 }
 
-#activities #displaySelected{
+.moadl-footer{
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.modal-body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -70px;
+}
+
+/* #activities #displaySelected{
     visibility: hidden;
     margin: 0 auto;
     width: 600px;
@@ -252,7 +267,8 @@ td:first-child{
 
 #activities #displaySelected #sendinfo input[type="email"]{
     width: 200px;
-}
+} */
+
 
 
 /* Contact Page */

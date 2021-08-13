@@ -19,10 +19,11 @@ $(document).ready(function(){
             } else {
                 $('.modal-body p:contains('+content+')').remove();
 
-                if ($('.modal-body').has('p').length == false){
-                    $('#myModal').css("visibility","hidden");
-                    $('#myModal').css("margin-top",'0')
-                }
+                // if ($('.modal-body').has('p').length == false){
+                //     // $('#myModal').css("visibility","hidden");
+                //     // $('.modal-body').append("<h5>" + " no ativities selected " + "</h5>");
+                //     $('#myModal').css("margin-top",'0')
+                // } 
             }
         }
     });
